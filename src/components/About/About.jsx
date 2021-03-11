@@ -73,15 +73,11 @@ const renderAboutMain = () => (
         <div className="job-duration"><i>12/2020 - Present</i></div>
         <div className="work-descriptions">
           <ul>
-            <li>
-              Added feature that enhanced the business growth by 10%.
-              Added feature that enhanced the business growth by 10%.
-              Added feature that enhanced the business growth by 10%
-            </li>
-            <li>Added feature that enhanced the business growth by 10%</li>
-            <li>Added feature that enhanced the business growth by 10%</li>
-            <li>Added feature that enhanced the business growth by 10%</li>
-            <li>Added feature that enhanced the business growth by 10%</li>
+            <li>Added a standard component library to be utilized across multiple applications</li>
+            <li>Worked on feature upgradation, analyzed the outdated technology and migrated the app with the latest one</li>
+            <li>Added features which enhanced SEO by 20%</li>
+            <li>Working with multiple web-technologies to enhance the existing applications</li>
+            <li>Working on adding new features that targets a large audience to use our product(s)</li>
           </ul>
         </div>
       </div>
@@ -92,11 +88,13 @@ const renderAboutMain = () => (
         <div className="job-duration"><i>07/2020 - 11/2020</i></div>
         <div className="work-descriptions">
           <ul>
-            <li>Added feature that enhanced the business growth by 10%</li>
-            <li>Added feature that enhanced the business growth by 10%</li>
-            <li>Added feature that enhanced the business growth by 10%</li>
-            <li>Added feature that enhanced the business growth by 10%</li>
-            <li>Added feature that enhanced the business growth by 10%</li>
+            <li>Worked as Frontend Engineer in financial domain, developing multiple projects following AGILE process of project development</li>
+            <li>Won sprint awards for Individual Excellence and Best Team</li>
+            <li>Successfully completed 66 User Stories which included design, development, optimization and deployment</li>
+            <li>Developed and implemented the designs provided by the client</li>
+            <li>Coordinated with the team to analyze and develop the business requirements</li>
+            <li>Worked closely with the backend team to integrate the services with the front-end</li>
+            <li>Worked closely with the BSAs to understand the business requirements and gave required inputs</li>
           </ul>
         </div>
       </div>
@@ -107,11 +105,11 @@ const renderAboutMain = () => (
         <div className="job-duration"><i>07/2018 - 06/2020</i></div>
         <div className="work-descriptions">
           <ul>
-            <li>Added feature that enhanced the business growth by 10%</li>
-            <li>Added feature that enhanced the business growth by 10%</li>
-            <li>Added feature that enhanced the business growth by 10%</li>
-            <li>Added feature that enhanced the business growth by 10%</li>
-            <li>Added feature that enhanced the business growth by 10%</li>
+            <li>Underwent a fast-track training to understand and learn basic concepts of Object Oriented Programming, SQL and Web Technologies</li>
+            <li>Designed and implemented UI, API, and database features for a Trip & Travel-applicaton using ReactJS, NodeJS, and MongoDB.</li>
+            <li>Created a CI/CD pipeline for the MERN application using GIT and Jenkins</li>
+            <li>Won sprint awards for Going Above and  Beyond for completing exceptional tasks.</li>
+            <li>Worked as MERN Stack Developer Lex(Infosys Learning Platform)</li>
           </ul>
         </div>
       </div>
