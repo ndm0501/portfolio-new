@@ -7,10 +7,10 @@ const Credits = ({ setShowCreditsModal }) => (
     <div className="credits-container">
       <div className="credits-header">
         <div></div>
-        <div>
+        <div className="credits-title">
           <span className="secondary-color">&hearts;</span>
           <span className="secondary-color">&hearts;</span>
-          Credits
+          <span>Credits</span>
           <span className="secondary-color">&hearts;</span>
           <span className="secondary-color">&hearts;</span>
         </div>
