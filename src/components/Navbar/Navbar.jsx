@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <nav className={`nav ${nav && 'nav__sticky'}`}>
       <div className="logo" >
-        <img src="/assets/img/avatar.jpg" />
+        <img src="/assets/img/avatar.jpeg" />
       </div>
       <div className={`navlinks ${showMenu ? 'navlinks-show-menu' : ''}`}>
         <ul >
