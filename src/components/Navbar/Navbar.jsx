@@ -20,9 +20,9 @@ const Navbar = () => {
   };
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    // return () => {
+    //   window.removeEventListener('scroll', handleScroll);
+    // };
   }, []);
 
   return (
@@ -51,7 +51,7 @@ const Navbar = () => {
               spy
               smooth
               hashSpy
-              offset={-200}
+              offset={-50}
               duration={1000}
               delay={100}>
               Skills
@@ -63,7 +63,7 @@ const Navbar = () => {
               spy
               smooth
               hashSpy
-              offset={-100}
+              offset={-50}
               duration={1500}
               delay={100}>
               About

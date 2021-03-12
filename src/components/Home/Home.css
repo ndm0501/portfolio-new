@@ -74,6 +74,8 @@
 
 }
 
+
+
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
     .home-wrapper {
         display: flex;
@@ -82,6 +84,7 @@
         height: 80vh;
         align-items: center;
         overflow: hidden;
+        margin: 0
     }
 
     .bio-image {
@@ -98,5 +101,36 @@
         flex-direction: column;
         align-items: center;
         margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+
+    .home-wrapper {
+        overflow: visible;
+        width: 100%;
+        margin-top: -85px;
+        height: 85vh;
+        margin-bottom: 100px;
+    }
+
+    .bio-image {
+        /* margin-top: -200px; */
+        height: 100%;
+        width: auto;
+        margin-bottom: 0;
+        justify-content: flex-end;
+    }
+
+    /* .bio-info {
+        margin-top: -50px;
+    } */
+
+    .name {
+        margin-bottom: 30px;
+    }
+
+    .designation {
+        margin-top: 0;
     }
 }

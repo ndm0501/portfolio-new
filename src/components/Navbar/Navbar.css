@@ -7,8 +7,10 @@ ul {
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    width: 100%;
+    width: 95%;
     padding-left: 10%;
+    margin-bottom: 21px;
+    z-index: 1;
 }
 
 .nav .logo {
@@ -31,6 +33,7 @@ ul {
 
 .nav .navlinks {
     padding-right: 20%;
+    z-index: 1;
 }
 
 .nav .navlinks ul {
@@ -47,6 +50,7 @@ ul {
     color: var(--primary-color);
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .nav .navlinks ul li a:hover {
@@ -66,4 +70,18 @@ ul {
 
 .nav-menu {
     display: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .nav {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+    .nav {
+        padding-left: 10px;
+        width: 100%;
+        padding-top: 5px;
+    }
 }

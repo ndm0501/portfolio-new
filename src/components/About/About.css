@@ -90,6 +90,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .about-wrapper {
         overflow: scroll;
+        width: 100%;
     }
 
     .about-side-wrapper {
@@ -105,5 +106,10 @@
     .about-wrapper {
         display: flex;
         flex-direction: column;
+        width: 100%;
+    }
+
+    .about-main-wrapper {
+        padding: 20px;
     }
 }
