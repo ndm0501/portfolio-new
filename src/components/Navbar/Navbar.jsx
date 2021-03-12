@@ -12,10 +12,7 @@ const Navbar = () => {
         setNav(true);
       }
     } else {
-      console.log(window.pageYOffset);
-
       setNav(false);
-
     }
   };
   const toggleMenu = () => {
