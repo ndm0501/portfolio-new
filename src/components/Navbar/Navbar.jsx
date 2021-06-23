@@ -51,8 +51,8 @@ const Navbar = () => {
               spy
               smooth
               hashSpy
-              offset={-50}
-              duration={1000}
+              offset={-250}
+              duration={500}
               delay={100}>
               Skills
             </Link>
@@ -63,8 +63,8 @@ const Navbar = () => {
               spy
               smooth
               hashSpy
-              offset={-50}
-              duration={1500}
+              offset={-100}
+              duration={500}
               delay={100}>
               About
             </Link>
