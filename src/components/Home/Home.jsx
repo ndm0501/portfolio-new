@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import BioImage from '../SVGs/BioImage';
 
 const Home = () => {
   return (
@@ -39,7 +40,7 @@ const Home = () => {
         </a>
       </div>
       <div className="bio-image">
-        <img src="./assets/img/2636676.jpg" />
+        <BioImage />
       </div>
     </section>
   );
