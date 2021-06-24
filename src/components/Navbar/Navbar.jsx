@@ -80,11 +80,13 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+      </div>
+      <span className="toggle-switch-container">
         <ToggleSwitch
           onChange={handleToggle}
           isToggled={!!getLocalStorageItem('theme')}
         />
-      </div>
+      </span>
       <div className="nav-menu">
         <button onClick={toggleMenu}>
           {!showMenu ? <i className="fas fa-bars"></i> : <i className="fas fa-times"></i>}
