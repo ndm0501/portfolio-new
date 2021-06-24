@@ -21,7 +21,8 @@ module.exports = {
     indent: ['error', 2],
     // we want to avoid useless spaces
     'no-multi-spaces': ['error'],
-    'react/jsx-indent':['error', 2],
-    'react/jsx-indent-props': ['error', 2]
+    'react/jsx-indent': ['error', 2],
+    'react/jsx-indent-props': ['error', 2],
+    'no-unused-vars': 'warn'
   },
 };
