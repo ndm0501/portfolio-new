@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { Link } from 'react-scroll';
 import ToggleSwitch from '../common/ToggleSwitch';
+import { getLocalStorageItem, removeLocalStorageItem, setLocalStorageItem } from '../../utils/storage';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -25,6 +26,17 @@ const Navbar = () => {
     //   window.removeEventListener('scroll', handleScroll);
     // };
   }, []);
+
+  const handleToggle = () => {
+    if (getLocalStorageItem('theme')) {
+      document.querySelector('body').classList.remove(getLocalStorageItem('theme'));
+      removeLocalStorageItem('theme');
+    } else {
+      setLocalStorageItem('theme', 'dark');
+      document.querySelector('body').classList.add(getLocalStorageItem('theme'));
+
+    }
+  };
 
   return (
     <nav className={`nav ${nav && 'nav__sticky'}`}>
@@ -71,7 +83,10 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <ToggleSwitch />
+        <ToggleSwitch
+          onChange={handleToggle}
+          isToggled={!!getLocalStorageItem('theme')}
+        />
       </div>
       <div className="nav-menu">
         <button onClick={toggleMenu}>
