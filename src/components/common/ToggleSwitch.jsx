@@ -3,22 +3,22 @@ import PropTypes from 'prop-types';
 import './ToggleSwitch.css';
 
 const ToggleSwitch = ({
-  value,
+  isToggled,
   onChange
 
 }) => {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(isToggled);
 
   const handleChange = () => {
-    () => setToggle(!toggle);
+    setToggle(!toggle);
     onChange();
   };
 
   console.log('hhh', toggle);
   return (
-    <span className={`toggle-switch ${toggle ? 'on' : 'off'}`} >
+    <span className={`toggle-switch ${toggle ? 'on' : 'off'}`}>
       <label className="switch">
-        <input type="checkbox" value={toggle} defaultChecked={value} onChange={handleChange} />
+        <input type="checkbox" value={toggle} defaultChecked={isToggled} onChange={handleChange} />
         <span className={'slider'}></span>
       </label>
     </span>
@@ -26,11 +26,11 @@ const ToggleSwitch = ({
 };
 
 ToggleSwitch.defaultProps = {
-  value: false,
+  isToggled: false,
 };
 
 ToggleSwitch.propTypes = {
-  value: PropTypes.bool,
+  isToggled: PropTypes.bool,
   onChange: PropTypes.func.isRequired,
 };
 
