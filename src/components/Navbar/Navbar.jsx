@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { Link } from 'react-scroll';
+import ToggleSwitch from '../common/ToggleSwitch';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -70,6 +71,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+        <ToggleSwitch />
       </div>
       <div className="nav-menu">
         <button onClick={toggleMenu}>

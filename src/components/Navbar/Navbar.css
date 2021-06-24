@@ -32,8 +32,10 @@ ul {
 }
 
 .nav .navlinks {
-    padding-right: 20%;
+    padding-right: 10%;
     z-index: 1;
+    display: flex;
+    align-items: center;
 }
 
 .nav .navlinks ul {
