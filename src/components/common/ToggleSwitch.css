@@ -1,6 +1,7 @@
 .toggle-switch {
     position: relative;
     width: 50px;
+    max-width: 50px;
     height: 28px;
     border-radius: 18px;
     border: 1px solid var(--secondary-color);
